@@ -1,0 +1,15 @@
+
+import React from "react";
+
+
+export const Contact= () => {
+  
+  return (
+
+      <div className='ser'>
+        <h1>Contact</h1>
+    </div>
+
+  )
+}
+export default Contact;
