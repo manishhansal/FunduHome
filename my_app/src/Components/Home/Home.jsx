@@ -150,6 +150,7 @@ export const Home = () => {
           <div className="sixdiv">
             <div>
               <img className="img1" src={imageFolder1} alt="" /> 
+              
             </div>
             <div>
               <img className="img1" src={imageFolder2} alt="" />
