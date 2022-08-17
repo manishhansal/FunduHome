@@ -111,7 +111,6 @@ li:hover {
     color: #FFFFFF;
     margin-left: 80px;
     margin-right: 80px;
-    cursor: pointer;
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -124,9 +123,14 @@ li:hover {
 
 .footer_bottom_right {
     display: flex;
+    cursor: pointer;
 }
 
 .footer_bottom_right hr {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.footer_main > hr {
+    width: 90%;
 }
