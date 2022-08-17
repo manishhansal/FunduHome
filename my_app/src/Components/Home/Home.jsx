@@ -2,6 +2,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import imageFolder from "../../imageFolder/img1.jpeg"
+import imageFolder1 from "../../imageFolder/img2.jpeg";
+import imageFolder2 from "../../imageFolder/img3.jpeg";
+import imageFolder3 from "../../imageFolder/mobile.jpeg";
+import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import AltRouteIcon from "@mui/icons-material/AltRoute";
+import DescriptionIcon from "@mui/icons-material/Description";
 import "./home.css";
 
 export const Home = () => {
@@ -81,9 +88,109 @@ export const Home = () => {
       </div>
 
       </div>
+      <div className="there1">
+        <div className="future1">
+          <div className="f2">
+            The <span className="span1t">Future</span> Of Art
+          </div>
+          <div className="f2">
+            {" "}
+            <span className="span1t">Technology </span>Is Here
+          </div>
+        </div>
+        <div className="img3div">
+          <div>
+            <img className="img1" src={imageFolder} alt="" />
+          </div>
+          <div>
+            <p className="lor2">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Cupiditate quasi neque voluptatibus consequuntur aliquid vel,
+              accusamus esse repellat magni quaerat voluptates id. Laborum nihil
+              nesciunt, facilis eos cum deserunt molestias.
+            </p>
+            <button className="reg1">Register Now</button>
+          </div>
       </div>
       </div>
-      
+      <div className="material1">
+          <div className="calday">
+            <div>
+              <CalendarTodayIcon /> 3
+            </div>
+            <div>Day</div>
+          </div>
+          <div className="calday">
+            <div>
+              <AccountCircleIcon /> 14
+            </div>
+            <div>Speakers</div>
+          </div>
+          <div className="calday">
+            <div>
+              <AltRouteIcon /> 2
+            </div>
+            <div>Panel</div>
+          </div>
+          <div className="calday">
+            <div>
+              <DescriptionIcon /> 3
+            </div>
+            <div>Notes</div>
+          </div>
+        </div>
+        <div className="bcome1">
+          <div className="future1">
+            <div className="f2">Become an</div>
+            <div className="f2">
+              {" "}
+              <span className="span1t">ace investor </span>today
+            </div>
+          </div>
+          <div className="sixdiv">
+            <div>
+              <img className="img1" src={imageFolder1} alt="" /> 
+            </div>
+            <div>
+              <img className="img1" src={imageFolder2} alt="" />
+            </div>
+            <div>
+              <img className="img1" src={imageFolder3} alt="" />
+            </div>
+            <div className="box1t">
+              <h2 className="h2help">HELPING YOU CLEAN</h2>
+              <p className="h1help">
+              Curated market data and news from 10 
+              exchange Beginners' guides and
+               video Certifacation cource designed by
+                industry experts Simulation for 
+                parcticing or computing for rewards.
+              </p>
+            </div>
+            <div className="box1t">
+            <h2 className="h2help">CROWDSOURSE YOUR WISDOM</h2>
+              <p className="h1help">
+              Curated market data and news from 10 
+              exchange Beginners' guides and
+               video Certifacation cource designed by
+                industry experts Simulation for 
+                parcticing or computing for rewards.
+              </p>
+            </div>
+            <div className="box1t">
+            <h2 className="h2help">ACCESSIBILTY ON YOUR FIMGERPRINTS</h2>
+              <p className="h1help">
+              Curated market data and news from 10 
+              exchange Beginners' guides and
+               video Certifacation cource designed by
+                industry experts Simulation for 
+                parcticing or computing for rewards.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
       
 
 
