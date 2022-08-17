@@ -1,10 +1,12 @@
 import './App.css';
+import CreatePost from './Components/CreatePost';
 import Footer from './Components/Footer';
 
 function App() {
   return (
     <div>
-      <Footer/>
+      <Footer />
+      <CreatePost/>
     </div>
   );
 }
