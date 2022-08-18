@@ -1,6 +1,7 @@
 .footer_main {
     background: #5D20D2;
     /* width: 100%; */
+    scroll-snap-align: start;
 }
 
 .footer_div {
@@ -38,7 +39,7 @@
     color: #A5ADCF;
 }
 
-.footer_download {
+.footer_download div {
     display: flex;
 }
 
@@ -145,14 +146,16 @@ li:hover {
     .footer_logo_content1 {
         width: 90%;
         margin: auto;
+        text-align: center;
     }
 
     .footer_logo_content2 {
         width: 90%;
         margin: auto;
+        text-align: center;
     }
 
-    .footer_download {
+    .footer_download > div {
         display: block;
     }
 
@@ -189,6 +192,12 @@ li:hover {
     .footer_main {
         padding-bottom: 10px;
     }
+
+    /* .footer_download {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
 
 }
 
@@ -228,5 +237,11 @@ li:hover {
 
     .footer_download, .footer_right {
         justify-content: center;
+    }
+
+    .footer_download {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

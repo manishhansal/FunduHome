@@ -37,22 +37,24 @@ const Footer = () => {
             <p>Get the Cryptolly Wallet Mobile App Now!</p>
           </div>
           <div className="footer_download">
-            <div className="footer_download_google">
-              <img src={google} alt="google" />
-              <div>
-                <p>
-                  GET IT ON <br />
-                  Google Play
-                </p>
+            <div>
+              <div className="footer_download_google">
+                <img src={google} alt="google" />
+                <div>
+                  <p>
+                    GET IT ON <br />
+                    Google Play
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="footer_download_apple">
-              <img src={apple} alt="apple" />
-              <div>
-                <p>
-                  Download on the <br />
-                  Apple Store
-                </p>
+              <div className="footer_download_apple">
+                <img src={apple} alt="apple" />
+                <div>
+                  <p>
+                    Download on the <br />
+                    Apple Store
+                  </p>
+                </div>
               </div>
             </div>
           </div>
