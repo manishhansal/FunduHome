@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import google from "../assests/google-play.png";
 import apple from "../assests/apple.png";
-import logo from "../assests/fundu_logo.png";
+import logo from "../assests/funduL.png";
 
 const content1 = ["Menu", "Home", "Marketplace", "Homeworks", "Newinsights"];
 const content2 = [

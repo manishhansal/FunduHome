@@ -24,7 +24,7 @@
     font-weight: 500;
     padding-top: 10px;
     box-sizing: border-box;
-    margin-left: 45%;
+    margin: auto;
 }
 
 
@@ -66,22 +66,10 @@
     width: 200px;
 }
 
-.posts_img {
-
-}
-
 .posts_img img {
     width: 290px;
     height: 150px;
     border-radius: 10px;
-}
-
-.posts_des {
-
-}
-
-.posts_date {
-
 }
 
 .card2, .card4, .card5 {
@@ -116,4 +104,30 @@
 
 .card6, .card8, .card10 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media screen and (max-width: 720px) {
+    .posts_div1 {
+        overflow: scroll;
+        margin-left: 0%;
+    }
+
+    .posts_div1::-webkit-scrollbar {
+        display: none;
+    }
+
+    .posts_div2 {
+        overflow: scroll;
+        margin-left: 0%;
+        margin-top: 5px;
+    }
+
+    .posts_div2::-webkit-scrollbar {
+        display: none;
+    }
+
+    .posts_main_p {
+        width: 90%;
+        margin: auto;
+    }
 }
