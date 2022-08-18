@@ -6,7 +6,18 @@
     margin: auto;
     text-align: center;
     font-weight: bold;
+    margin-top: 10px;
   font-size: 30px;
+  }
+  .f2{
+    margin-top: 20px;
+    font-family: 'PlutoSansW04-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  
   }
   .span1t{
     color: #5D20D2;
