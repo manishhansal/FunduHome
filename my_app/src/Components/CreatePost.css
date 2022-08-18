@@ -66,9 +66,7 @@
     width: 200px;
 }
 
-.posts_img {
 
-}
 
 .posts_img img {
     width: 290px;
@@ -76,13 +74,6 @@
     border-radius: 10px;
 }
 
-.posts_des {
-
-}
-
-.posts_date {
-
-}
 
 .card2, .card4, .card5 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

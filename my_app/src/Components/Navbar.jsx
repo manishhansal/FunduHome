@@ -13,7 +13,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-          <img
+          <img className="limg"
               style={{ width: "140px", height: "40px" }}
               src={funduLogo}
               alt="logo"

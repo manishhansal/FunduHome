@@ -28,8 +28,7 @@ export const future= () => {
                 <p className="lor2">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Cupiditate quasi neque voluptatibus consequuntur aliquid vel,
-                  accusamus esse repellat magni quaerat voluptates id. Laborum
-                  nihil nesciunt, facilis eos cum deserunt molestias.
+               
                 </p>
                 <button className="reg1">Register Now</button>
               </div>

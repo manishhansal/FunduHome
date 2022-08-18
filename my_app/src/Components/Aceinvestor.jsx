@@ -34,7 +34,7 @@ export const Aceinvestor= () => {
                 <p className="h1help">
                   Curated market data and news from 10 exchange Beginners'
                   guides and video Certifacation cource designed by industry
-                  experts Simulation for parcticing or computing for rewards.
+                 
                 </p>
               </div>
               <div className="box1t">
@@ -42,7 +42,7 @@ export const Aceinvestor= () => {
                 <p className="h1help">
                   Curated market data and news from 10 exchange Beginners'
                   guides and video Certifacation cource designed by industry
-                  experts Simulation for parcticing or computing for rewards.
+                 
                 </p>
               </div>
               <div className="box1t">
@@ -50,7 +50,7 @@ export const Aceinvestor= () => {
                 <p className="h1help">
                   Curated market data and news from 10 exchange Beginners'
                   guides and video Certifacation cource designed by industry
-                  experts Simulation for parcticing or computing for rewards.
+      
                 </p>
               </div>
             </div>

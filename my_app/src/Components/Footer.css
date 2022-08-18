@@ -15,8 +15,7 @@
     margin-top: 70px;
 }
 
-.footer_logo {
-}
+
 
 .footer_logo img {
     width: 135px;
@@ -85,9 +84,6 @@
     margin-right: 60px;
 }
 
-.content3 {
-    
-}
 
 .content1 ul li, .content2 ul li, .content3 ul li {
     list-style: none;
@@ -117,9 +113,7 @@ li:hover {
     line-height: 20px;
 }
 
-.footer_bottom_left {
 
-}
 
 .footer_bottom_right {
     display: flex;

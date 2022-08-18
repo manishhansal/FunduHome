@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./playwithease.css";
 import imageFolder from "../imageFolder/img1.jpeg";
@@ -32,4 +31,3 @@ export const playwithease= () => {
   );
 };
 export default playwithease;
-

@@ -10,15 +10,18 @@ import Playwithease from "../Playwithease";
 import Futureart from "../Futureart";
 import Aceinvestor from "../Aceinvestor";
 import Ourplatform from "../Ourplatform"
-
+import Card from "../Card"
+import Playoff from "../Playoff"
 export const Home = () => {
   return (
     <>
+      
       <div className="group">
-        <iframe
+        
+      <iframe
           // style={{marginLeft:"25%"}}
           width="50%"
-          height="50%"
+          height="100%"
           title="video"
           src="https://www.youtube.com/embed/Gn8KabKXG9o"
         ></iframe>
@@ -33,38 +36,22 @@ export const Home = () => {
         <br></br>
         <br></br>
     
-          <div className="land1">
-            <div className="play1">
-              <div>Daily</div>
-              <div className="poffs1">Playoffs</div>
-            </div>
-            <div className="imgplay1">
-              <div className="folder1para1">
-                <p>
-                  FundU provides a simulated environment to traders for
-                  different markets. Games have been designed for different user
-                  segments to compete. Apply your market knowledge to test with
-                  real time simulation games. Compete with your peers, perform
-                  and sharpen your trading skills. Get a chance to earn by
-                  maximising your profits
-                </p>
-                <div className="pnow">Play Now</div>
-              </div>
-              <div className="folder1para2">
-                <img className="img1" src={imageFolder} alt="" />
-              </div>
-              </div>
        
-
-        <Playwithease /> 
+<br></br>
+<Playoff />
+        <Playwithease />  
+        
           <CreatePost />
            <Futureart />
-        <Aceinvestor />
+           <Card />
+        {/* <Aceinvestor /> */}
         
        <Ourplatform />
-     
+      
+      
         </div>
-        </div>
+
+
 
       {/* <GetInTouch />
       <Footer /> */}

@@ -7,7 +7,7 @@ export const Ourplatform = () => {
  
   return (
 
-      <div className="mainDiv">
+      
   <div className='ourPltfm'>
         <div className="future1">
           <div className="f2">
@@ -18,7 +18,7 @@ export const Ourplatform = () => {
             <span className="span1t">Our Platform </span>
           </div>
           <br></br>
-         
+          <br></br>
           <div className='threediv'>
             <div>
               <h2 className='thdiv'>Getting Started</h2>
@@ -44,8 +44,7 @@ export const Ourplatform = () => {
 </div>
 
 
-          </div>
-        
+          
    
  
 
