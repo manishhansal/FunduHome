@@ -1,0 +1,79 @@
+.ashu1{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+    
+  }
+  .ashu1 > div {
+    width: 100%;
+    height: 240px;
+    /* border: 1px solid blue; */
+  }
+  .img1ashu{
+    width: 100%;
+    height: 100%;
+  }
+  .box1tarz{
+    padding-top: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* width: 300px; */
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+   
+  }
+  .h2helppossible{
+    text-align: center;
+  }
+  @media screen and (max-width: 720px) {
+  .f2{
+    font-family: 'PlutoSansW04-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  
+  }
+  .future1{
+    width: 50%;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+  font-size: 30px;
+  }
+  .span1t{
+    color: #5D20D2;
+  }
+}
+  @media only screen and (max-width: 800px) {
+    .h2helppossible{
+      font-size: 10px;
+      text-align: center;
+      margin-right: 10px;
+  
+      padding: auto;
+      /* padding-right: 30px; */
+    }
+    
+  }
+  @media screen and (max-width: 320px) {
+    .box1tarz { font-size: 10px;
+    text-align: center;
+    /* padding-right: 30px; */
+    /* margin: auto; */
+    padding: auto;
+    padding-bottom: 10px;
+    }
+  
+     }
