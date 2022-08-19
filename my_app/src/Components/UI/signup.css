@@ -1,0 +1,64 @@
+
+.inputemail{
+    width: 40%;
+    height: 55px;
+    outline: none;
+    text-align: center;
+    color: #ffff;
+    background-color: #313342;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid #545a68;
+    border-bottom: 1px solid #545a68;
+}
+::placeholder{
+    text-align: center;
+    font-size: larger;
+}
+#nextButtonOnSignup{
+    height: 35px;
+    border-radius: 50px;
+    background-color: #545967;
+    border: none;
+    margin: auto;
+    outline: none;
+    width: 30%;
+}
+.backButton{
+    background-color: #313342;
+    border: none;
+    color: white;
+    font-weight:lighter ;
+    float: left;
+    position: relative;
+    top: 25px;
+    font-size: 25px;
+    left: 10px;
+    float: left;
+    cursor: pointer;
+    
+}
+.backButtonIcon{
+    background-color: #313342;
+    border: none;
+    outline: none;
+    color: white;
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+    left: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.headerWithBackButton{
+    position: relative;
+    height: 100px;
+}
+.loginLandingContentBox{
+margin-top: 0px;
+margin-bottom: 20px;
+}
+.h33{
+ margin-top: 10px;
+}

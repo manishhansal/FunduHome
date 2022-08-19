@@ -1,45 +1,72 @@
-video {
-    width: 100%;
-    height: 80%;
-    margin-bottom: 45px;
-}
 
 .group{
-    margin: 20px;
+  /* margin: 20px; */
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid black; */
+}
+
+iframe {
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+@media only screen and (max-width: 720px) {
+  .group{
+      /* margin: 20px; */
+      width: 100%;
+      height: 100%;
+      /* border: 1px solid black; */
+  }
+
+  iframe {
+    margin-top: 10px;
+    margin-left: 5%;
+    height: 200px;
+    width: 90%;
+  }
 }
 .butt{
     background: #5D20D2;
     color: white;
     border-radius: 29px;
-/* width:8% ;
-height: 30px; */
-width: 167px;
-height: 34px;
-text-align: center;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-
+    /* width:8% ;
+    height: 30px; */
+    width: 167px;
+    height: 34px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 5px;
+}
+.play1{
+  font-family: 'PlutoSansW04-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
 }
 .get{
-  display: flex;
-    margin: auto;
     display: flex;
+    margin: auto;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
+@media screen and (max-width: 720px) {
 .land1{
   width: 100%;
-  height: 350px;
-  /* border: 1px solid black; */
+ height: 500px;
+    /* border: 1px solid red; */
+ 
 }
 .play1{
   width: 30%;
-  height: 60px;
+  height: 20%;
   /* border: 1px solid red; */
 margin: auto;
 display: flex;
@@ -48,12 +75,12 @@ justify-content: center;
 font-size: 30px;
 font-weight: bold;
 gap: 10px;
-
 font-family: 'PlutoSansW04-Bold';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
 line-height: 58px;
+}
 }
 .poffs1{
   color: #5D20D2;
@@ -69,7 +96,7 @@ line-height: 58px;
 }
 .folder1para1{
   width: 40%;
-  height: 100%;
+  /* height: 100%; */
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -170,13 +197,13 @@ cursor: pointer;
   width: 120px;
   height: 30px;
   border: 1px solid  #5D20D2;
-text-align: center;
-margin-top: 40px;
-border-radius: 20px;
-font-weight: bold;
-color:  #5D20D2;
-padding-top: 8px;
-cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 20px;
+  font-weight: bold;
+  color:  #5D20D2;
+  padding-top: 5px;
+  cursor: pointer;
 }
 .playease{
   width: 100%;
@@ -366,20 +393,22 @@ height: 98px;
   gap: 20px;
  
 }
-.sixdiv > div {
+/* .sixdiv > div {
   width: 100%;
   height: 260px;
-  /* border: 1px solid black; */
+ 
   border-radius: 12px;
-}
-.h2help{
+} */
+
+
+/* .h2help{
   text-align: center;
   font-family: 'PlutoSansW04-Bold';
 font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 19px;
-}
+} */
 .h1help{
   font-family: 'Montserrat';
 font-style: normal;
@@ -390,9 +419,9 @@ line-height: 27px;
 
 text-align: center;
 }
-.box1t{
+/* .box1t{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 .ourPltfm{
   width: 100%;
   height: 380px;

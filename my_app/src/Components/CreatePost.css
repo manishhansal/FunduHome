@@ -52,6 +52,7 @@
 
 .posts_title {
     display: flex;
+    margin-bottom: 5%;
 }
 
 .posts_profile {
