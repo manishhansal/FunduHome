@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginLangdingContainer{
+    height: 100vh;
+    /* background-color: #313342; */
+}
+
+.loginLandingLeftSideLogo{
+    text-align: center;
+    vertical-align: top;
+    width: 35%;
+    height: 100%;
+    background-color: #3d88cc;
+    font-family:sans-serif;
+    position: relative;
+    display: inline-block;
+}
+
+.imageLogo{
+    margin-top: 50%;
+}
+.man {
+    background-color: white;
+    color:  #313342;
+}
+
+.darkAbout {
+    background-color:  #313342;
+    color: #f2eaea;
+}
+
+
+
+/* right */
+
+.loginLandingRihgt{
+    background-color: #313342;
+    /* border: 1px solid red; */
+    width: 65%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+.headerWithBackButton{
+    height: 50px;
+}
+.loginLandingContentBox{
+    position: relative;
+    top: 15%;
+    height: 80%;
+}
+ .loginLandingContentBox button{
+    border: 1px solid #545a68;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 10px;
+    width: 20rem;
+    flex-grow: 1;
+    font-size: .938rem;
+    line-height: .25rem;
+    position: relative;;
+    background-color: #313342;
+    color: white;
+ }
+
+ .loginLandingContentBox img{
+   width:1.5em;
+   height:1.5em ;
+   display: inline-block;
+   margin: 5px ;
+ 
+ }
+
+
+ .footer{
+
+ margin-top: 80px;
+ }
+
+ /* @media (min-width: 300px) and (max-width: 750)  {
+    .loginLandingLeftSideLogo{
+        display: none;
+    }
+  } */
+
+  @media only screen and (max-width:400px) {
+    .loginLandingLeftSideLogo{
+        display: none;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 820px)  {
+    .loginLandingLeftSideLogo{
+        display: none;
+    }
+    .loginLandingRihgt{
+     width: 100%;
+    }
+  }
+@media (max-height: 280px), screen and (orientation: portrait){
+     .loginLandingLeftSideLogo{
+         display: none;
+     }
+     .loginLandingRihgt{
+      width: 100%;
+     }
+     .loginLandingContentBox button{
+         width: 90%;
+      }
+
+  }

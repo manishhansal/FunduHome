@@ -44,7 +44,7 @@ export const Home = () => {
           <CreatePost />
            <Futureart />
            <Card />
-        {/* <Aceinvestor /> */}
+        
         
        <Ourplatform />
       
@@ -53,8 +53,8 @@ export const Home = () => {
 
 
 
-      {/* <GetInTouch />
-      <Footer /> */}
+      {/* <GetInTouch /> */}
+      {/* <Footer /> */}
     </>
 
   );

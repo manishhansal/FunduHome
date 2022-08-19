@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import google from "../assests/google-play.png";
 import apple from "../assests/apple.png";
-import logo from "../assests/fundu_logo.png";
+// import logo from "../assests/fundu.png";
 
 const content1 = ["Menu", "Home", "Marketplace", "Homeworks", "Newinsights"];
 const content2 = [
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="footer_div">
         <div className="footer_left">
           <div className="footer_logo">
-            <img src={logo} alt="logo" />
+            {/* <img src={logo} alt="logo" /> */}
           </div>
           <div className="footer_logo_content1">
             <p>
@@ -37,22 +37,24 @@ const Footer = () => {
             <p>Get the Cryptolly Wallet Mobile App Now!</p>
           </div>
           <div className="footer_download">
-            <div className="footer_download_google">
-              <img src={google} alt="google" />
-              <div>
-                <p>
-                  GET IT ON <br />
-                  Google Play
-                </p>
+            <div>
+              <div className="footer_download_google">
+                <img src={google} alt="google" />
+                <div>
+                  <p>
+                    GET IT ON <br />
+                    Google Play
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className="footer_download_apple">
-              <img src={apple} alt="apple" />
-              <div>
-                <p>
-                  Download on the <br />
-                  Apple Store
-                </p>
+              <div className="footer_download_apple">
+                <img src={apple} alt="apple" />
+                <div>
+                  <p>
+                    Download on the <br />
+                    Apple Store
+                  </p>
+                </div>
               </div>
             </div>
           </div>
