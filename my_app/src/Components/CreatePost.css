@@ -135,4 +135,7 @@
         width: 90%;
         margin: auto;
     }
+    .posts_main_div {
+        scroll-snap-align: end;
+    }
 }

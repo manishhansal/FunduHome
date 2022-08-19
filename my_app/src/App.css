@@ -4,6 +4,12 @@
   height: 100vh;
 }
 
+@media screen and (max-width: 720px) {
+  .App {
+    scroll-snap-type: none;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
