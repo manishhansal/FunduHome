@@ -1,16 +1,24 @@
 .image_main{
-    width: 80%;
+    width: 90%;
     height: 600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: grid;
     grid-template-columns: repeat(3,30%);
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin-left: 120px;
-  
     
+  
+
   }
+  .S_img{
+    width: 100%;
+    height: 100%;
+    
+    /* margin-left: 90px; */
+  }
+  
   .sign{
     width: 129px;
     height: 100px;
@@ -26,22 +34,24 @@ margin-top: 20%;
     color: #5D20D2;   color: #5D20D2;
     border: 1px solid #5D20D2;
 border-radius: 29px;
+text-align: center;
 
   }
     .sign2{
         color: #5D20D2;
     border: 1px solid #5D20D2;
 border-radius: 29px;
+text-align: center;
 margin-top: 20px;
 
   }
   .image_main> div {
     width: 100%;
     height: 280px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
   .img1social{
-    width: 80%;
+    width: 100%;
     height: 70%;
   }
     .img1social1{
@@ -132,6 +142,13 @@ margin-top: 60%;
 margin-right: 40%;
 /* border: 1px solid #5D20D2; */
 
+  }
+ 
+  .S_img{
+    width: 100%;
+    height: 100%;
+    
+    /* margin-left: 90px; */
   }
    .sign1{
     color: #5D20D2; 

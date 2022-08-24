@@ -1,6 +1,6 @@
 import React from 'react'
-import imageFolder1 from "../imageFolder/sliderImg3.jpeg";
-import imageFolder2 from "../imageFolder/sliderImg.jpeg";
+import imageFolder1 from "../imageFolder/div1.jpeg";
+import imageFolder2 from "../imageFolder/div2.jpeg";
 import imageFolder3 from "../imageFolder/div3.jpeg";
 import imageFolder4 from "../imageFolder/div4.jpeg";
 import imageFolder5 from "../imageFolder/div5.jpeg";
@@ -11,12 +11,13 @@ export const Fundu = () => {
   return (
     <div>
            <div className="join">
-              <div className="f2">join the</div>
+              <div className="f2">Join the</div>
               <div className="f2">
                 {" "}
-                <span className="span1t">growing result </span>today
+                <span className="span1t">growing result </span>today <p className='p_txt'>“Social network for retail traders community”</p>
+
               </div>
-              <p className='p_txt'>“Social network for retail traders community”</p>
+             
             </div>
             <br></br>
             <br></br>

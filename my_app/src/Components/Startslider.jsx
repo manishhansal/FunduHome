@@ -19,8 +19,8 @@ const Startslider = () => {
     </div>
 
     
-    <div className="main">
-<img src= {imageFolder3} alt="" classNa="img-fluid" />
+    <div className="main_sli">
+<img className='start_img' src= {imageFolder3} alt="" classNa="img-fluid" />
         
     </div>
        

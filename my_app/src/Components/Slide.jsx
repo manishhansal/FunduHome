@@ -10,10 +10,15 @@ const Slider = () => {
         <>
    
         <div className='sliderImg'>
+        <div className="posts_main_div">
+      <h1>
+        Play With <strong> Ease</strong>
+      </h1>
+      </div>
             <Slide>
                 {slideImages.map((slideImage, index) => (
                     <div className="each-slide" key={index}>
-                        <img width="100%" height="50%" src={slideImage.url} />
+                        <img className='slie_img' src={slideImage.url} />
                         <span>{slideImage.caption}</span>
                     </div>
                 ))}
