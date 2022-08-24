@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import imageFolder from "../../imageFolder/img1.jpeg";
 import "./home.css";
 import Footer from "../Footer";
-import GetInTouch from "../GetInTouch";
+// import GetInTouch from "../GetInTouch";
 import CreatePost from "../CreatePost";
 import Playwithease from "../Playwithease";
 import Futureart from "../Futureart";
