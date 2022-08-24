@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import google from "../../assests/google-play.png";
 import apple from "../../assests/apple.png";
-import logo from "../../assests/funduL.png";
+
 
 const content1 = ["Menu", "Home", "Marketplace", "Homeworks", "Newinsights"];
 const content2 = [
@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="footer_div">
         <div className="footer_left">
           <div className="footer_logo">
-            <img src={logo} alt="logo" />
+
           </div>
           <div className="footer_logo_content1">
             <p>

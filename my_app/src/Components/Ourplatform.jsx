@@ -39,4 +39,4 @@ export const Ourplatform = () => {
     </div>
   );
 };
-export default Ourplatform;
+
