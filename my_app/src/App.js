@@ -11,28 +11,25 @@ import Signup from "./Components/UI/signup";
 import LoginWithMail from "./Components/UI/loginWithMail";
 import ForgotPassword from "./Components/UI/forgotPassword";
 
-
-
-
 function App() {
   return (
     <div className="App">
-    
-     <Navbar />
-     {/* <Home /> */}
+      <Navbar />
+      {/* <Home /> */}
       <Routes>
-<Route path="/" element={<Home />} /> 
+        <Route path="/" element={<Home />} />
         {/* <Route path="/services" element={<Services />} />
         <Route path="/about" element={<About />} /> */}
         {/* <Route path="/login" element={< Login/>} /> */}
-  
-        <Route path='/loginlanding' element={<LoginLanging/>}/>
-        <Route path='password-login' element={<LoginWithMail/>}/>
-        <Route path='signup' element={<Signup/>}/>
 
-        <Route path='forgot-password' element={<ForgotPassword/>}/>
-       </Routes>
- 
+        {/* </Routes> */}
+
+        <Route path="/loginlanding" element={<LoginLanging />} />
+        <Route path="password-login" element={<LoginWithMail />} />
+        <Route path="signup" element={<Signup />} />
+
+        <Route path="forgot-password" element={<ForgotPassword />} />
+      </Routes>
     </div>
   );
 }

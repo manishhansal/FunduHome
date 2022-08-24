@@ -35,14 +35,14 @@
 @media screen and (max-width: 400px) {
   .future2ashu{
     width: 100%;
-  height: 80px;
-  /* border: 2px solid green; */
-  display: grid;
-  grid-template-columns: repeat(2,40%);
-  justify-content: center;
-  align-items: center;
-  /* background-color: blue; */
-  gap: 10px;
+    height: 80px;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: repeat(2,40%);
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+    gap: 10px;
   }
   .future2ashu > div {
     width: 100%;
@@ -60,7 +60,7 @@
   }
 
   
-  }
+}
   .calday{
     display: flex;
     font-size: 30px;

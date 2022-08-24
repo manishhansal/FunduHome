@@ -1,0 +1,248 @@
+.footer_main {
+    background: #5D20D2;
+    /* width: 100%; */
+    scroll-snap-align: start;
+}
+
+.footer_div {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 96px;
+   
+}
+
+.footer_logo {
+    margin-bottom: 5%;
+}
+
+.footer_left {
+    margin-right: 15%;
+    margin-top: 70px;
+}
+
+.footer_logo img {
+    width: 135px;
+    height: 48px;
+}
+
+.footer_logo_content1 {
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer_logo_content2 {
+    width: 400px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #A5ADCF;
+}
+
+.footer_download div {
+    display: flex;
+}
+
+.footer_download_google, .footer_download_apple {
+    width: 170px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+.footer_download_google img, .footer_download_apple img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.footer_download_google div, .footer_download_apple div {
+    margin-top: 2px;
+}
+
+.footer_right {
+    display: flex;
+    margin-top: 80px;
+}
+
+.content1 {
+    margin-right: 60px;
+}
+
+.content2 {
+    margin-right: 60px;
+}
+
+.content1 ul li, .content2 ul li, .content3 ul li {
+    list-style: none;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+}
+
+li:hover {
+    list-style: disc;
+}
+
+.footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.footer_bottom_right {
+    display: flex;
+    cursor: pointer;
+}
+
+.footer_bottom_right hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer_main > hr {
+    width: 90%;
+}
+
+@media screen and (max-width: 720px) {
+    .footer_div {
+        display: block;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .footer_left {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    .footer_right {
+        margin-top: 15px;
+        display: block;
+        text-align: center;
+    }
+
+    .footer_logo_content1 {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer_logo_content2 {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .footer_download > div {
+        display: block;
+    }
+
+    .footer_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_download_apple, .footer_download_google {
+        margin-right: 0px;
+        margin-left: 20%;
+    }
+
+    .footer_download_google {
+        margin-bottom: 10px;
+    }
+
+    .content1, .content2 {
+        margin-right: 0px;
+    }
+
+    .footer_bottom {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .footer_bottom_right {
+        display: block;
+    }
+
+    .footer_main {
+        padding-bottom: 10px;
+    }
+    
+    .footer_download {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .content1, .content2 {
+        margin-right: 30px;
+    }
+
+    .footer_div {
+        margin-left: 0px;
+        padding: 0px 5px 0px 5px;
+        display: block;
+    }
+
+    .footer_left {
+        margin-right: 0px;
+    }
+
+    .footer_logo_content1, .footer_logo_content2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_left {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .footer_logo img {
+        margin-top: 2%;
+    }
+
+    .footer_download, .footer_right {
+        justify-content: center;
+    }
+
+    .footer_download {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
