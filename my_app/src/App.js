@@ -15,14 +15,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Home /> */}
+  
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/services" element={<Services />} />
-        <Route path="/about" element={<About />} /> */}
-        {/* <Route path="/login" element={< Login/>} /> */}
-
-        {/* </Routes> */}
+      
 
         <Route path="/loginlanding" element={<LoginLanging />} />
         <Route path="password-login" element={<LoginWithMail />} />

@@ -1,7 +1,7 @@
 import "./our.css";
 
 import React from "react";
-export const Ourplatform = () => {
+ const Ourplatform = () => {
   return (
     <div className="ourPltfm">
       <div className="future1">
@@ -39,4 +39,5 @@ export const Ourplatform = () => {
     </div>
   );
 };
+export default Ourplatform;
 

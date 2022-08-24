@@ -9,6 +9,11 @@ import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 export const future = () => {
   return (
     <div>
+        <div className="posts_main_div">
+      <h1>
+        The Future of <strong> Art Technology</strong> Is Here
+      </h1>
+      </div>
       <div className="future1ashu">
         <div>
           <img className="img1ashwini" src={imageFolder} alt="" />

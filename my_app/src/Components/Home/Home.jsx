@@ -12,35 +12,33 @@ import Futureart from "../Futureart";
 import Ourplatform from "../Ourplatform";
 import Card from "../Card";
 import Playoff from "../Playoff";
+import Startslider from "../Startslider";
+import Slider from "../Slide";
+import Fundu from "../Fundugrowing";
+import Lovelyuser from "../Lovelyuser";
 export const Home = () => {
   return (
     <>
       <div className="group">
-        <iframe
-          width="50%"
-          height="500px"
-          title="video"
-          src="https://www.youtube.com/embed/Gn8KabKXG9o"
-        ></iframe>
-        <br></br>
-        <br></br>
-        <div className="get">
-          <div className="butt">Get Started</div>
-          <Link to="/">
-            <div>Learn More.....</div>
-          </Link>
-        </div>
+      <Startslider />
         <br></br>
         <br></br>
 
         <br></br>
         <Playoff />
-        <Playwithease />
+        <br></br>
+        <br></br>
+        <br></br>
 
-        <CreatePost />
+     <Slider />
+     <br></br>
+     <br></br>
+     <Fundu />
+
+        {/* <CreatePost /> */}
         <Futureart />
         <Card />
-
+<Lovelyuser />
         <Ourplatform />
         <GetInTouch />
         <Footer />

@@ -20,7 +20,7 @@ const Lovelyuser = () => {
             <Slide>
                 { SlideImgs.map(( SlideImg, index) => (
                     <div className="each-slide" key={index}>
-                        <img width="100%" height="50%" src={ SlideImg.url} />
+                        <img className='S_img' src={ SlideImg.url} />
                         <span>{ SlideImg.caption}</span>
                     </div>
                 ))}
