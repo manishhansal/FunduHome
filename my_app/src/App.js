@@ -10,30 +10,31 @@ import LoginLanging from "./Components/UI/loginLanding";
 import Signup from "./Components/UI/signup";
 import LoginWithMail from "./Components/UI/loginWithMail";
 import ForgotPassword from "./Components/UI/forgotPassword";
-import Startslider from "./Components/Startslider";
+import Lovelyuser from "./Components/Lovelyuser";
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Startslider /> */}
+      {/* <Slider /> */}
+    < Lovelyuser />
     {/* <Fundugrowing /> */}
-     <Navbar />
+     {/* <Navbar /> */}
    
-      <Routes>
+      {/* <Routes>
 <Route path="/" element={<Home />} /> 
         <Route path="/services" element={<Services />} />
-        <Route path="/about" element={<About />} /> 
+        <Route path="/about" element={<About />} />  */}
          {/* <Route path="/login" element={< Login/>} />  */}
   
-         <Route path='/loginlanding' element={<LoginLanging/>}/>
+         {/* <Route path='/loginlanding' element={<LoginLanging/>}/>
         <Route path='password-login' element={<LoginWithMail/>}/>
         <Route path='signup' element={<Signup/>}/>
 
         <Route path='forgot-password' element={<ForgotPassword/>}/>
        </Routes> 
-  
+   */}
     </div>
   );
 }

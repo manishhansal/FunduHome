@@ -1,13 +1,13 @@
 import React from 'react'
-import imageFolder1 from "../imageFolder/div1.jpeg";
-import imageFolder2 from "../imageFolder/div2.jpeg";
+import imageFolder1 from "../imageFolder/sliderImg3.jpeg";
+import imageFolder2 from "../imageFolder/sliderImg.jpeg";
 import imageFolder3 from "../imageFolder/div3.jpeg";
 import imageFolder4 from "../imageFolder/div4.jpeg";
 import imageFolder5 from "../imageFolder/div5.jpeg";
 
 import "./fundugrow.css";
 
-export const Card = () => {
+export const Fundu = () => {
   return (
     <div>
            <div className="join">
@@ -63,4 +63,4 @@ export const Card = () => {
     </div>
   )
 }
-export default Card;
+export default Fundu;
