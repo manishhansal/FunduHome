@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//  import {BrowserRouter,Switch,Route,NavLink} from "react-router-dom"
 import { NavLink } from "react-router-dom";
 import "./navbar.css";
 import funduLogo from "../assets/fundu_logo.jpeg";
