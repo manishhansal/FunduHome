@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import imageFolder from "../../imageFolder/img1.jpeg";
 import "./home.css";
-import Footer from "../Footer";
+import Footer from "../Footer/Footer";
 import GetInTouch from "../GetInTouch";
 import CreatePost from "../CreatePost";
 import Playwithease from "../Playwithease";
